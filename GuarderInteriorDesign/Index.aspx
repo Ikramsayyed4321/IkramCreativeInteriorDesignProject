@@ -17,8 +17,7 @@
                     </span>
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod magna aliqua. Ut enim ad minim veniam
+                   
                   </p>
                   <div class="btn-box">
                     <a href="" class="btn-1"> Read more </a>
@@ -110,13 +109,13 @@
             </h2>
           </div>
           <p>
-           At InspireSpace, we believe that interior design is more than great functionality and beautiful aesthetics.
-              We aim to make your home interiors a reflection of your personality. 
-              Your home should be something that you and your family take pride in and love to spend time in. Our efficient,
-              customized home interior designs incorporate your needs in every nook of your home,
-              so your space meets your every requirement. 
-              Our dedicated home interior designers work with you tirelessly to tie your style
-              with their design expertise, creating the perfect interior design plan. 
+        At InspireSpace, we believe that interior design is more than great functionality and beautiful aesthetics.
+   We aim to make your home interiors a reflection of your personality. 
+   Your home should be something that you and your family take pride in and love to spend time in. Our efficient,
+   customized home interior designs incorporate your needs in every nook of your home,
+   so your space meets your every requirement. 
+   Our dedicated home interior designers work with you tirelessly to tie your style
+   with their design expertise, creating the perfect interior design plan. 
           </p>
           <div class="btn-box">
             <a href="">
