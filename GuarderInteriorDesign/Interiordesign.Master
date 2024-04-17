@@ -15,7 +15,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
-  <title>Creative Interiors</title>
+  <title>InspireSpace Interiors</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -70,7 +70,7 @@
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
               <span>
-                Creative Interiors
+                InspireSpace 
               </span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,7 +89,7 @@
                   <a class="nav-link" href="Service.aspx"> Services </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Portfolio.aspx"> Portfolio </a>
+                  <a class="nav-link" href="Portfolio.aspx"> Gallery </a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="ContactUs.aspx">Contact us</a>
@@ -114,7 +114,7 @@
 <footer class="container-fluid footer_section">
   <p>
     &copy; <span id="currentYear"></span> All Rights Reserved. Design by
-    <a href="https://html.design/">Free Html Templates</a>
+    <a href="https://html.design/">InspireSpace Interiors</a>
   </p>
 </footer>
 <!-- footer section -->

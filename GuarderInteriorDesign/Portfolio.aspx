@@ -7,11 +7,10 @@
   <div class="container">
     <div class="heading_container heading_center">
       <h2>
-        Our Guards
+         Design Gallery
       </h2>
       <p>
-        Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris
-        iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.
+       If you’re on the lookout for simple home interior designs, look no further than InspireSpace for end-to-end interior design services.
       </p>
     </div>
     <div class="row">
@@ -22,10 +21,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Martin Anderson
+              Modular Kitchen
             </h5>
             <h6 class="">
-              supervisor
+             
             </h6>
           </div>
         </div>
@@ -37,10 +36,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Denny Butler
+              Bedroom
             </h5>
             <h6 class="">
-              supervisor
+              
             </h6>
           </div>
         </div>
@@ -52,10 +51,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Nathan Mcpherson
+              Living Room
             </h5>
             <h6 class="">
-              supervisor
+             
             </h6>
           </div>
         </div>

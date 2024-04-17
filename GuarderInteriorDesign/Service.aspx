@@ -31,10 +31,10 @@
           </div>
           <div class="detail-box">
             <h6>
-              Home Security
+           Modular Kitchen Designs
             </h6>
             <p>
-              Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+             Stylish  Modular kitchens for the modern home interior design that’s just right for you.
             </p>
             <a href="">
               Read More
@@ -111,10 +111,10 @@
           </div>
           <div class="detail-box">
             <h6>
-              Office Security
+             Bedroom Designs
             </h6>
             <p>
-              Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+             Design trends come and go, but there are some enduring styles that stand the test of time.  
             </p>
             <a href="">
               Read More
@@ -185,10 +185,10 @@
           </div>
           <div class="detail-box">
             <h6>
-              Bodyguard
+              Living Room Interiors
             </h6>
             <p>
-              Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+             A well-designed living room can be the perfect place to relax, entertain guests, and enjoy time with family.
             </p>
             <a href="">
               Read More

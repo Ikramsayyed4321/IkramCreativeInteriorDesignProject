@@ -6,7 +6,7 @@
 <section class="contact_section layout_padding">
   <div class="contact_bg_box">
     <div class="img-box">
-      <img src="images/contact-bg.jpg" alt="">
+      <img src="images/contact-bg.png" alt="">
     </div>
   </div>
   <div class="container">

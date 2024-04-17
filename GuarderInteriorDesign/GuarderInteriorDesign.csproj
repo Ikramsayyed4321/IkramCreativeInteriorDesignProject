@@ -74,9 +74,9 @@
     <Content Include="css\responsive.css" />
     <Content Include="css\style.css" />
     <Content Include="images\about-img.jpg" />
-    <Content Include="images\client.png" />
-    <Content Include="images\contact-bg.jpg" />
+    <Content Include="images\contact-bg.png" />
     <Content Include="images\favicon.png" />
+    <Content Include="images\client.jpg" />
     <Content Include="images\hero-bg.jpg" />
     <Content Include="images\s1.svg" />
     <Content Include="images\s2.svg" />

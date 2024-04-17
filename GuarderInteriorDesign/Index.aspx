@@ -110,11 +110,13 @@
             </h2>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate velit
+           At InspireSpace, we believe that interior design is more than great functionality and beautiful aesthetics.
+              We aim to make your home interiors a reflection of your personality. 
+              Your home should be something that you and your family take pride in and love to spend time in. Our efficient,
+              customized home interior designs incorporate your needs in every nook of your home,
+              so your space meets your every requirement. 
+              Our dedicated home interior designers work with you tirelessly to tie your style
+              with their design expertise, creating the perfect interior design plan. 
           </p>
           <div class="btn-box">
             <a href="">
@@ -159,10 +161,10 @@
           </div>
           <div class="detail-box">
             <h6>
-              Home Security
+             Modular Kitchen Designs
             </h6>
             <p>
-              Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+                Stylish  Modular kitchens for the modern home interior design that’s just right for you.
             </p>
             <a href="">
               Read More
@@ -239,10 +241,10 @@
           </div>
           <div class="detail-box">
             <h6>
-              Office Security
+             Bedroom Designs
             </h6>
             <p>
-              Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+              Design trends come and go, but there are some enduring styles that stand the test of time. 
             </p>
             <a href="">
               Read More
@@ -313,10 +315,10 @@
           </div>
           <div class="detail-box">
             <h6>
-              Bodyguard
+             Living Room Interiors
             </h6>
             <p>
-              Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+               A well-designed living room can be the perfect place to relax, entertain guests, and enjoy time with family.
             </p>
             <a href="">
               Read More
@@ -345,17 +347,15 @@
         <div class="carousel-item active">
           <div class="box">
             <div class="img-box">
-              <img src="images/client.png" alt="">
+              <img src="images/client.jpg" alt="">
             </div>
             <div class="detail-box">
               <h4>
-                Minim Veniam
+               Ikram Sayyed
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip
+               When you design your house, you tend to do everything that is right for you. InspireSpace has actually turned our dream into reality.
+
               </p>
             </div>
           </div>
@@ -363,17 +363,14 @@
         <div class="carousel-item ">
           <div class="box">
             <div class="img-box">
-              <img src="images/client.png" alt="">
+              <img src="images/client.jpg" alt="">
             </div>
             <div class="detail-box">
               <h4>
-                Minim Veniam
+                Ikram Sayyed
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip
+                 When you design your house, you tend to do everything that is right for you. InspireSpace has actually turned our dream into reality.
               </p>
             </div>
           </div>
@@ -381,17 +378,14 @@
         <div class="carousel-item ">
           <div class="box">
             <div class="img-box">
-              <img src="images/client.png" alt="">
+              <img src="images/client.jpg" alt="">
             </div>
             <div class="detail-box">
               <h4>
-                Minim Veniam
+                Ikram Sayyed
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip
+             When you design your house, you tend to do everything that is right for you. InspireSpace has actually turned our dream into reality.
               </p>
             </div>
           </div>
@@ -418,7 +412,7 @@
 <section class="contact_section layout_padding">
   <div class="contact_bg_box">
     <div class="img-box">
-      <img src="images/contact-bg.jpg" alt="">
+      <img src="images/contact-bg.png" alt="">
     </div>
   </div>
   <div class="container">
@@ -434,15 +428,29 @@
             <div class="contact_form-container">
               <div>
                 <div>
-                     <asp:TextBox ID="TextBox1" runat="server" placeholder="Full Name"></asp:TextBox>
+                    <asp:TextBox ID="txtfullName" runat="server" placeholder="Full Name"></asp:TextBox>
+<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+    ErrorMessage="Please Enter your Name" ControlToValidate="txtFullName" ForeColor="Red" Font-Bold="true"></asp:RequiredFieldValidator>
+
 </div>
 <div>
   
-        <asp:TextBox ID="TextBox2" runat="server" placeholder="E-Mail"></asp:TextBox>
+                           <asp:TextBox ID="txtEmail" runat="server" placeholder="E-Mail"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
+                     ErrorMessage="Please Enter your E-mail Address" ControlToValidate="txtEmail" ForeColor="Red" Font-Bold="true"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtEmail"
+ForeColor="Red" ValidationExpression="^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+Display = "Dynamic" ErrorMessage = "Invalid email address"/>
+
 </div>
 <div>
  
-        <asp:TextBox ID="TextBox3" runat="server" placeholder="Phone Number"></asp:TextBox>
+       
+                        <asp:TextBox ID="txtPhoneNo" runat="server" placeholder="Phone Number"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
+      ErrorMessage="Please Enter your Phone Number" ControlToValidate="txtPhoneNo" ForeColor="Red" Font-Bold="true"></asp:RequiredFieldValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Invalid Phone Number"
+                        ControlToValidate="txtPhoneNo" ForeColor="Red" Font-Bold="true" ValidationExpression="[0-9]{10}"></asp:RegularExpressionValidator>
 </div>
 <div class="">
   
@@ -450,7 +458,10 @@
 </div>
 <div class="btn-box ">
                
-    <asp:Button ID="Button1" runat="server" Text="Submit" />
+     <asp:Button ID="btnSubmit" runat="server" Text="Submit" cssClass="botton"/>
+ <asp:ValidationSummary ID="ValidationSummary1" runat="server" ControlToValidate="btnSubmit" ForeColor="Red" Font-Bold="true" />
+
+
                 </div>
               </div>
             </div>
@@ -469,11 +480,10 @@
   <div class="container">
     <div class="heading_container heading_center">
       <h2>
-        Our Guards
+         Design Gallery
       </h2>
       <p>
-        Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris
-        iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.
+          If you’re on the lookout for simple home interior designs, look no further than InspireSpace for end-to-end interior design services.
       </p>
     </div>
     <div class="row">
@@ -484,10 +494,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Martin Anderson
+             Modular Kitchen
             </h5>
             <h6 class="">
-              supervisor
+             
             </h6>
           </div>
         </div>
@@ -499,10 +509,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Denny Butler
+               Bedroom
             </h5>
             <h6 class="">
-              supervisor
+             
             </h6>
           </div>
         </div>
@@ -514,10 +524,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Nathan Mcpherson
+               Living Room
             </h5>
             <h6 class="">
-              supervisor
+             
             </h6>
           </div>
         </div>
@@ -541,38 +551,38 @@
         <div class="info_logo">
           <a class="navbar-brand" href="index.html">
             <span>
-              Guarder
+              InspireSpace 
             </span>
           </a>
           <p>
-            dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quisdotempor incididunt r
+            Visualize your Dream Home Interiors in 3D at our Studio nearby or virtually from anywhere.
           </p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="info_links">
           <h5>
-            Useful Link
+           Customer Support
           </h5>
           <ul>
             <li>
               <a href="">
-                dolor sit amet, consectetur
+               Raise Issue
               </a>
             </li>
             <li>
               <a href="">
-                magna aliqua. Ut enim ad
+               My issues
               </a>
             </li>
             <li>
               <a href="">
-                minim veniam,
+               Privacy Policy
               </a>
             </li>
             <li>
               <a href="">
-                quisdotempor incididunt r
+              Terms of Use
               </a>
             </li>
           </ul>
@@ -588,19 +598,19 @@
           <a href="" class="">
             <i class="fa fa-map-marker" aria-hidden="true"></i>
             <span>
-              Lorem ipsum dolor sit amet,
+              kalamb Square, Yavatmal
             </span>
           </a>
           <a href="" class="">
             <i class="fa fa-phone" aria-hidden="true"></i>
             <span>
-              Call : +01 1234567890
+              Call : +91 8408081308
             </span>
           </a>
           <a href="" class="">
             <i class="fa fa-envelope" aria-hidden="true"></i>
             <span>
-              demo@gmail.com
+              info@creative.com
             </span>
           </a>
         </div>
