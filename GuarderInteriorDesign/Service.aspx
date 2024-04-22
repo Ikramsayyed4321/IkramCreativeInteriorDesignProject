@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Interiordesign.Master" AutoEventWireup="true" CodeBehind="Service.aspx.cs" Inherits="GuarderInteriorDesign.Service" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Interiordesign.Master" AutoEventWireup="true" CodeBehind="Service.aspx.cs" Inherits="GuarderInteriorDesign.Service" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <!-- service section -->
@@ -202,3 +202,4 @@
 
 <!-- end service section -->
 </asp:Content>
+
