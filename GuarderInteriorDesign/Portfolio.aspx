@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Interiordesign.Master" AutoEventWireup="true" CodeBehind="Portfolio.aspx.cs" Inherits="GuarderInteriorDesign.Portfolio" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Interiordesign.Master" AutoEventWireup="true" CodeBehind="Portfolio.aspx.cs" Inherits="GuarderInteriorDesign.Portfolio" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <!-- team section -->
@@ -78,38 +78,38 @@
         <div class="info_logo">
           <a class="navbar-brand" href="index.html">
             <span>
-              Guarder
+              InspireSpace 
             </span>
           </a>
           <p>
-            dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quisdotempor incididunt r
+            Visualize your Dream Home Interiors in 3D at our Studio nearby or virtually from anywhere.
           </p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="info_links">
           <h5>
-            Useful Link
+           Customer Support
           </h5>
           <ul>
             <li>
               <a href="">
-                dolor sit amet, consectetur
+               Raise Issue
               </a>
             </li>
             <li>
               <a href="">
-                magna aliqua. Ut enim ad
+               My issues
               </a>
             </li>
             <li>
               <a href="">
-                minim veniam,
+               Privacy Policy
               </a>
             </li>
             <li>
               <a href="">
-                quisdotempor incididunt r
+              Terms of Use
               </a>
             </li>
           </ul>
@@ -125,19 +125,19 @@
           <a href="" class="">
             <i class="fa fa-map-marker" aria-hidden="true"></i>
             <span>
-              Lorem ipsum dolor sit amet,
+              kalamb Square, Yavatmal
             </span>
           </a>
           <a href="" class="">
             <i class="fa fa-phone" aria-hidden="true"></i>
             <span>
-              Call : +01 1234567890
+              Call : +91 8408081308
             </span>
           </a>
           <a href="" class="">
             <i class="fa fa-envelope" aria-hidden="true"></i>
             <span>
-              demo@gmail.com
+              info@creative.com
             </span>
           </a>
         </div>
@@ -177,3 +177,4 @@
 
 
 </asp:Content>
+
