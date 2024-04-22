@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Interiordesign.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="GuarderInteriorDesign.Index" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Interiordesign.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="GuarderInteriorDesign.Index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
       <!-- slider section -->
@@ -40,8 +40,7 @@
                     </span>
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod magna aliqua. Ut enim ad minim veniam
+                   
                   </p>
                   <div class="btn-box">
                     <a href="" class="btn-1"> Read more </a>
@@ -64,8 +63,7 @@
                     </span>
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod magna aliqua. Ut enim ad minim veniam
+                   
                   </p>
                   <div class="btn-box">
                     <a href="" class="btn-1"> Read more </a>
@@ -109,13 +107,13 @@
             </h2>
           </div>
           <p>
-        At InspireSpace, we believe that interior design is more than great functionality and beautiful aesthetics.
-   We aim to make your home interiors a reflection of your personality. 
-   Your home should be something that you and your family take pride in and love to spend time in. Our efficient,
-   customized home interior designs incorporate your needs in every nook of your home,
-   so your space meets your every requirement. 
-   Our dedicated home interior designers work with you tirelessly to tie your style
-   with their design expertise, creating the perfect interior design plan. 
+           At InspireSpace, we believe that interior design is more than great functionality and beautiful aesthetics.
+              We aim to make your home interiors a reflection of your personality. 
+              Your home should be something that you and your family take pride in and love to spend time in. Our efficient,
+              customized home interior designs incorporate your needs in every nook of your home,
+              so your space meets your every requirement. 
+              Our dedicated home interior designers work with you tirelessly to tie your style
+              with their design expertise, creating the perfect interior design plan. 
           </p>
           <div class="btn-box">
             <a href="">
@@ -426,13 +424,24 @@
           <form action="#" runat="server">
             <div class="contact_form-container">
               <div>
+                 
+                  <!-- Full Name -->
                 <div>
                     <asp:TextBox ID="txtfullName" runat="server" placeholder="Full Name"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
     ErrorMessage="Please Enter your Name" ControlToValidate="txtFullName" ForeColor="Red" Font-Bold="true"></asp:RequiredFieldValidator>
 
 </div>
+                          <!-- age -->
+        <div>
+            <asp:TextBox ID="txtAge" runat="server" placeholder="Age" ></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
+ErrorMessage="Please Enter your Age" ControlToValidate="txtAge" ForeColor="Red" Font-Bold="true"></asp:RequiredFieldValidator>
+            <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="You are not eligible" 
+                ControlToValidate="txtAge" MinimumValue="18" MaximumValue="60"></asp:RangeValidator>
+        </div>
 <div>
+                      <!-- E-Mail -->
   
                            <asp:TextBox ID="txtEmail" runat="server" placeholder="E-Mail"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
@@ -442,6 +451,7 @@ ForeColor="Red" ValidationExpression="^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0
 Display = "Dynamic" ErrorMessage = "Invalid email address"/>
 
 </div>
+                     <!-- Phone Number -->
 <div>
  
        
@@ -451,6 +461,23 @@ Display = "Dynamic" ErrorMessage = "Invalid email address"/>
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Invalid Phone Number"
                         ControlToValidate="txtPhoneNo" ForeColor="Red" Font-Bold="true" ValidationExpression="[0-9]{10}"></asp:RegularExpressionValidator>
 </div>
+                                    <!-- Password -->
+                 <div>
+                     <asp:TextBox ID="txtPwd" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server"
+                         ErrorMessage="Please Enter Your Password" ControlToValidate="txtPwd" 
+                         ForeColor="Red" Font-Bold="true"></asp:RequiredFieldValidator>
+                 </div>
+                     <!--  Re-Enter Password -->
+                  <div>
+    <asp:TextBox ID="txtRePwd" runat="server" placeholder="Re-Enter Password"></asp:TextBox>
+    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server"
+        ErrorMessage="Please Re-Enter Your Password"  ControlToValidate="txtRePwd"
+        ForeColor="Red" Font-Bold="true"></asp:RequiredFieldValidator>
+     <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Password do not match please re enter"
+         ControlToCompare="txtPwd" ControlToValidate="txtRePwd" ></asp:CompareValidator>
+</div>
+                     <!-- Message -->
 <div class="">
   
         <asp:TextBox ID="TextBox4" runat="server" placeholder="Message"></asp:TextBox>
@@ -648,3 +675,4 @@ Display = "Dynamic" ErrorMessage = "Invalid email address"/>
 <!-- end info_section -->
 
 </asp:Content>
+
